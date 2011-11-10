@@ -1,8 +1,12 @@
-Miri - The MakerBot Personal Assistant
+http://upload.wikimedia.org/wikipedia/en/6/6d/STMiri.jpg See: Name[rdoc-label:label-Name]
+
+=Miri
+
+==The MakerBot Personal Assistant
 
 OSX voice control to launch programs stored on the MakerBot's SD Card.  Whaa??  You can talk to your MakerBot?! Yesssss.
 
-=Installation
+==Installation
 
 sudo gem install rublicatorg
 
@@ -14,6 +18,10 @@ Copy Makerbot.scpt and the .wav files to ~/Library/Speech/Speakable Items
 
 Goto System Preferences -> Speech -> Speech Recognition and turn Speakable Items On.  I'd recommend Listen continuously with keyword optional and uncheck speak command acknowledgement.  Under Text To Speech tab, try a female system voice.
 
-=Usage
+==Usage
 
 Use ReplicatorG to put some files on your SD card.  I recommend short easy to speak filenames.  Then say "MakerBot!" and wait a few seconds to get a list of available files (either in the Speech Commands window or a Growl popup if you have Growl).  Then say the name of the program.  Watch as the MakerBot fails to make even a warm cup of tea.  Marval at the fact that you can tell your MakerBot to make plastic things instead.  Try not to get too frustrated if you have to repeat the same thing 20 times to get it to recognize your voice if you mumble like me.
+
+==Name
+
+Siri?  No, see: http://en.wikipedia.org/wiki/Miri_%28Star_Trek:_The_Original_Series%29
